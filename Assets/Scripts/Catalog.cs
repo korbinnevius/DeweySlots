@@ -8,10 +8,16 @@ namespace DefaultNamespace
     public class Catalog : ScriptableObject
     {
        public List<Item> Items;
-
+       public List<Book> Books;
         public void AddItem(Item item)
         {
             Items.Add(item);
+        }
+
+        public void AddBook(Book book)
+        {
+            //todo: check for duplicates!
+            Books.Add(book);
         }
     }
 }
