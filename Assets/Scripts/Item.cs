@@ -5,7 +5,7 @@ public class Item : object
     public string acquisition_date;
     public int biblio_id;
     public string callnumber;
-    public object checked_out_date;
+    public string checked_out_date;
     public string copy_number;
     public int damaged_status;
     public string effective_item_type_id;

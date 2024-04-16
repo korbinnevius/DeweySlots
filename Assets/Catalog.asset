@@ -12,36 +12,529 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dee792443c2450fbb74007413ffa967, type: 3}
   m_Name: Catalog
   m_EditorClassIdentifier: 
-  Items:
-  - acquisition_date: 2017-07-28
-    biblio_id: 87596
-    callnumber: '302.23 V838M  '
-    copy_number: 1
-    damaged_status: 0
-    effective_item_type_id: BOOK
-    effective_not_for_loan_status: 0
-    external_id: 31437000027950
-    holding_library_id: CHATHAM
-    home_library_id: CHATHAM
-    item_id: 98796
-    item_type_id: BOOK
-    location: CIRC2
-    lost_status: 0
-    not_for_loan_status: 0
-    withdrawn: 0
-  - acquisition_date: 2017-07-28
-    biblio_id: 87596
-    callnumber: '302.23 V838M  '
-    copy_number: 1
-    damaged_status: 0
-    effective_item_type_id: BOOK
-    effective_not_for_loan_status: 0
-    external_id: 31437000027950
-    holding_library_id: CHATHAM
-    home_library_id: CHATHAM
-    item_id: 98796
-    item_type_id: BOOK
-    location: CIRC2
-    lost_status: 0
-    not_for_loan_status: 0
-    withdrawn: 0
+  LastBiblioSearchedFor: 75
+  lastUpdatedIndex: 13
+  Books:
+  - title: Prehistoric Europe, from stone age man to the early Greeks.
+    author: Stern, Philip Van Doren,
+    callNumber: 913.36 St4
+    biblio: 1
+    floor: 3
+    isAvailable: 1
+  - title: Cubism and abstract art,
+    author: 
+    callNumber: 709.04 N42c
+    biblio: 2
+    floor: 3
+    isAvailable: 1
+  - title: Omoo; a narrative of adventures in the South Seas.
+    author: Melville, Herman,
+    callNumber: 813 M497 v.2
+    biblio: 3
+    floor: 3
+    isAvailable: 1
+  - title: Sons of Adam, daughters of Eve.
+    author: Ross, Ishbel,
+    callNumber: 301.412 R73
+    biblio: 4
+    floor: 2
+    isAvailable: 1
+  - title: The Saturnalia.
+    author: Macrobius, Ambrosius Aurelius Theodosius.
+    callNumber: 878 M24
+    biblio: 5
+    floor: 3
+    isAvailable: 1
+  - title: Christian letters to a post-Christian world;
+    author: Sayers, Dorothy L.
+    callNumber: 230 Sa99
+    biblio: 6
+    floor: 2
+    isAvailable: 1
+  - title: Pictorial anatomy of the cat.
+    author: Gilbert, Stephen G.
+    callNumber: 599.7 G37
+    biblio: 7
+    floor: 2
+    isAvailable: 1
+  - title: Black in white America /
+    author: Freed, Leonard.
+    callNumber: 917.303 F7b
+    biblio: 8
+    floor: 3
+    isAvailable: 1
+  - title: The tragedy of Lyndon Johnson,
+    author: Goldman, Eric Frederick,
+    callNumber: 973.923 J63
+    biblio: 9
+    floor: 3
+    isAvailable: 1
+  - title: "Mateo Alem\xE1n."
+    author: McGrady, Donald.
+    callNumber: 863 AL26zm
+    biblio: 10
+    floor: 3
+    isAvailable: 1
+  - title: The making of black America;
+    author: Meier, August,
+    callNumber: 301.451 M47m
+    biblio: 11
+    floor: 2
+    isAvailable: 1
+  - title: 'Christian iconography :'
+    author: "Grabar, Andr\xE9,"
+    callNumber: 704.948 G75
+    biblio: 12
+    floor: 3
+    isAvailable: 1
+  - title: Archeological investigations on the Rio Napo, eastern Ecuador
+    author: Evans, Clifford,
+    callNumber: 572 Sm69 v.6
+    biblio: 13
+    floor: 0
+    isAvailable: 0
+  - title: Socialism in Cuba,
+    author: Huberman, Leo,
+    callNumber: 972.91 H86s
+    biblio: 14
+    floor: 3
+    isAvailable: 1
+  - title: 'Guatemala: occupied country,'
+    author: Galeano, Eduardo H.,
+    callNumber: 972.81 G13
+    biblio: 15
+    floor: 0
+    isAvailable: 0
+  - title: The unexpected hanging,
+    author: Gardner, Martin,
+    callNumber: 510.7 G17
+    biblio: 16
+    floor: 0
+    isAvailable: 0
+  - title: America the raped;
+    author: Marine, Gene.
+    callNumber: 333.72 M33
+    biblio: 17
+    floor: 0
+    isAvailable: 0
+  - title: Schizophrenia; research and theory
+    author: Broen, William Ernest.
+    callNumber: 614.58 B78
+    biblio: 18
+    floor: 0
+    isAvailable: 0
+  - title: Gene activity in early development
+    author: Davidson, Eric H.,
+    callNumber: 574.3 D28
+    biblio: 19
+    floor: 0
+    isAvailable: 0
+  - title: The University of Virginia edition of the works of Stephen Crane.
+    author: Crane, Stephen,
+    callNumber: 813 C856w
+    biblio: 20
+    floor: 0
+    isAvailable: 0
+  - title: Poetic knowledge in the early Yeats;
+    author: Grossman, Allen R.,
+    callNumber: 821 Ye3zgr
+    biblio: 21
+    floor: 0
+    isAvailable: 0
+  - title: Theories of the bargaining process.
+    author: Coddington, Alan.
+    callNumber: 338.82 C64
+    biblio: 22
+    floor: 0
+    isAvailable: 0
+  - title: Properties and reactions of bonds in organic molecules
+    author: Reid, K. F.
+    callNumber: 547.1 R27
+    biblio: 23
+    floor: 0
+    isAvailable: 0
+  - title: Untouchable;
+    author: Hazari.
+    callNumber: 915.4 H33
+    biblio: 24
+    floor: 0
+    isAvailable: 0
+  - title: The dehumanization of art;
+    author: "Ortega y Gasset, Jos\xE9,"
+    callNumber: 701 Or8
+    biblio: 25
+    floor: 0
+    isAvailable: 0
+  - title: Dimensions of the modern novel;
+    author: Ziolkowski, Theodore.
+    callNumber: 833.09 Z67
+    biblio: 26
+    floor: 0
+    isAvailable: 0
+  - title: Mechanics in sixteenth-century Italy;
+    author: Drake, Stillman.
+    callNumber: 531 D78
+    biblio: 27
+    floor: 0
+    isAvailable: 0
+  - title: Der Spiesser-Spiegel.
+    author: Grosz, George,
+    callNumber: 759.13 G914s
+    biblio: 28
+    floor: 0
+    isAvailable: 0
+  - title: Pearl S. Buck; a biography,
+    author: Harris, Theodore F.
+    callNumber: 813 B854zh
+    biblio: 29
+    floor: 0
+    isAvailable: 0
+  - title: Francisco de Rojas Zorrilla,
+    author: MacCurdy, Raymond R.
+    callNumber: 862 R632zm
+    biblio: 30
+    floor: 0
+    isAvailable: 0
+  - title: Jacinto Benavente,
+    author: "Pe\xF1uelas, Marcelino C.,"
+    callNumber: 862 B43zp
+    biblio: 31
+    floor: 0
+    isAvailable: 0
+  - title: History of Serbia.
+    author: Temperley, Harold William Vazeille,
+    callNumber: 949.7 T24
+    biblio: 32
+    floor: 0
+    isAvailable: 0
+  - title: Revolution and counter-revolution in Hungary,
+    author: "J\xE1szi, Oszk\xE1r,"
+    callNumber: 943.91 J31
+    biblio: 33
+    floor: 0
+    isAvailable: 0
+  - title: Friedrich Engels;
+    author: Mayer, Gustav,
+    callNumber: 335 En32m
+    biblio: 34
+    floor: 0
+    isAvailable: 0
+  - title: The crisis in the German social-democracy.
+    author: Luxemburg, Rosa,
+    callNumber: 940.311 L97
+    biblio: 35
+    floor: 0
+    isAvailable: 0
+  - title: The Franco-Russian Alliance, 1891-1917.
+    author: Michon, Georges.
+    callNumber: 327.44 M58
+    biblio: 36
+    floor: 0
+    isAvailable: 0
+  - title: Fascism; doctrine and institutions.
+    author: Mussolini, Benito,
+    callNumber: 945.09 M97
+    biblio: 37
+    floor: 0
+    isAvailable: 0
+  - title: 'Henry A. Wallace of Iowa: the agrarian years, 1910-1940'
+    author: Schapsmeier, Edward L.
+    callNumber: 973.917 W15sc
+    biblio: 38
+    floor: 0
+    isAvailable: 0
+  - title: Judaism despite Christianity;
+    author: Rosenstock-Huessy, Eugen,
+    callNumber: 296.3 R72
+    biblio: 39
+    floor: 0
+    isAvailable: 0
+  - title: Pacifism in the United States,
+    author: Brock, Peter,
+    callNumber: 341.1 B78
+    biblio: 40
+    floor: 0
+    isAvailable: 0
+  - title: America and the Mediterranean world, 1776-1882,
+    author: Field, James A.
+    callNumber: 327.73 F45
+    biblio: 41
+    floor: 0
+    isAvailable: 0
+  - title: The italics are mine
+    author: Berberova, Nina Nikolaevna.
+    callNumber: 891.73 B45
+    biblio: 42
+    floor: 0
+    isAvailable: 0
+  - title: Heard round the world;
+    author: Hyman, Harold Melvin,
+    callNumber: 973.7 Im7 v.3
+    biblio: 43
+    floor: 0
+    isAvailable: 0
+  - title: 
+    author: "Lev\u0301i-Strauss, Claude."
+    callNumber: 572 L579e
+    biblio: 44
+    floor: 0
+    isAvailable: 0
+  - title: Culture change, mental health, and poverty.
+    author: 
+    callNumber: 362.2 C89
+    biblio: 45
+    floor: 0
+    isAvailable: 0
+  - title: Israel and the Arabs.
+    author: Rodinson, Maxime.
+    callNumber: 956 R61
+    biblio: 46
+    floor: 0
+    isAvailable: 0
+  - title: Population and history /
+    author: Wrigley, E. A.
+    callNumber: 312 W938p
+    biblio: 47
+    floor: 0
+    isAvailable: 0
+  - title: Basic research methods in social science;
+    author: Simon, Julian Lincoln,
+    callNumber: 301.8 Si5
+    biblio: 48
+    floor: 0
+    isAvailable: 0
+  - title: The Olmec world.
+    author: Bernal, Ignacio.
+    callNumber: 970.3 B45
+    biblio: 49
+    floor: 0
+    isAvailable: 0
+  - title: The growth of the modern West Indies
+    author: Lewis, Gordon K.
+    callNumber: 972.9 L58
+    biblio: 50
+    floor: 0
+    isAvailable: 0
+  - title: Marxist economic theory.
+    author: Mandel, Ernest.
+    callNumber: 335.4 M31
+    biblio: 51
+    floor: 0
+    isAvailable: 0
+  - title: Nicole Oresme and the medieval geometry of qualities and motions;
+    author: Oresme, Nicole,
+    callNumber: 513 Or3
+    biblio: 52
+    floor: 0
+    isAvailable: 0
+  - title: Whispers from a continent; the literature of contemporary black Africa.
+    author: Cartey, Wilfred G.,
+    callNumber: 896 C24
+    biblio: 53
+    floor: 0
+    isAvailable: 0
+  - title: Negro troops of antebellum Louisiana;
+    author: McConnell, Roland C.
+    callNumber: 356.1 M13n
+    biblio: 54
+    floor: 0
+    isAvailable: 0
+  - title: Mao Tse-tung
+    author: Payne, Robert,
+    callNumber: 951.05 M32p
+    biblio: 55
+    floor: 0
+    isAvailable: 0
+  - title: Chiang Kai-shek
+    author: Payne, Robert,
+    callNumber: 951.042 C43p
+    biblio: 56
+    floor: 0
+    isAvailable: 0
+  - title: 'Island in the crossroads :'
+    author: Brau, M. M.
+    callNumber: 972.95 B7i
+    biblio: 57
+    floor: 0
+    isAvailable: 0
+  - title: The meaning of archaeology.
+    author: Pallottino, Massimo.
+    callNumber: 913.03 P17
+    biblio: 58
+    floor: 0
+    isAvailable: 0
+  - title: Semantic information processing.
+    author: Minsky, Marvin Lee,
+    callNumber: 001.5 M66
+    biblio: 59
+    floor: 0
+    isAvailable: 0
+  - title: Applications of nuclear magnetic resonance spectroscopy in organic chemistry,
+    author: Jackman, Lloyd Miles.
+    callNumber: 547.3 J13
+    biblio: 60
+    floor: 0
+    isAvailable: 0
+  - title: The French novel, from eighteen hundred to the present.
+    author: Engler, Winfried.
+    callNumber: 843.09 En35
+    biblio: 61
+    floor: 0
+    isAvailable: 0
+  - title: Nonviolent direct action;
+    author: Hare, A. Paul
+    callNumber: 301.1 H22
+    biblio: 62
+    floor: 0
+    isAvailable: 0
+  - title: Lewis Tappan and the evangelical war against slavery.
+    author: Wyatt-Brown, Bertram,
+    callNumber: 327 W97
+    biblio: 63
+    floor: 0
+    isAvailable: 0
+  - title: Civil rights & responsibilities under the Constitution
+    author: Asch, Sidney H.
+    callNumber: 342.73 As2
+    biblio: 64
+    floor: 0
+    isAvailable: 0
+  - title: Anatomy of the SS state
+    author: 
+    callNumber: 943.086 In7
+    biblio: 65
+    floor: 0
+    isAvailable: 0
+  - title: Castle to castle
+    author: "Ce\u013Aine, Louis-Ferdinand,"
+    callNumber: 843 D475ca
+    biblio: 66
+    floor: 0
+    isAvailable: 0
+  - title: Stage to screen;
+    author: Vardac, A. Nicholas.
+    callNumber: 791 V42
+    biblio: 67
+    floor: 0
+    isAvailable: 0
+  - title: The French Revolution of 1870-1871
+    author: Williams, Roger Lawrence,
+    callNumber: 944.08 W671
+    biblio: 68
+    floor: 0
+    isAvailable: 0
+  - title: "Stephen Sz\xE9chenyi and the awakening of Hungarian nationalism, 1791-1841."
+    author: Barany, George,
+    callNumber: 943.91 Sz2b
+    biblio: 69
+    floor: 0
+    isAvailable: 0
+  - title: Nation-building and community in Israel.
+    author: Willner, Dorothy.
+    callNumber: 956.94 W68
+    biblio: 70
+    floor: 0
+    isAvailable: 0
+  - title: Lenin's last struggle.
+    author: Lewin, Moshe,
+    callNumber: 947.084 L54L
+    biblio: 71
+    floor: 0
+    isAvailable: 0
+  - title: Pope's couplet art
+    author: Jones, John A.
+    callNumber: 821 P81zj
+    biblio: 72
+    floor: 0
+    isAvailable: 0
+  - title: 'A Conflict of loyalties :'
+    author: 
+    callNumber: 355.224 C76f
+    biblio: 73
+    floor: 0
+    isAvailable: 0
+  - title: Nancy Shippen, her journal book;
+    author: Livingston, Anne Home Shippen,
+    callNumber: 917.48 L76
+    biblio: 74
+    floor: 0
+    isAvailable: 0
+  availableBooks:
+  - title: Prehistoric Europe, from stone age man to the early Greeks.
+    author: Stern, Philip Van Doren,
+    callNumber: 913.36 St4
+    biblio: 1
+    floor: 3
+    isAvailable: 1
+  - title: Cubism and abstract art,
+    author: 
+    callNumber: 709.04 N42c
+    biblio: 2
+    floor: 3
+    isAvailable: 1
+  - title: Omoo; a narrative of adventures in the South Seas.
+    author: Melville, Herman,
+    callNumber: 813 M497 v.2
+    biblio: 3
+    floor: 3
+    isAvailable: 1
+  - title: Sons of Adam, daughters of Eve.
+    author: Ross, Ishbel,
+    callNumber: 301.412 R73
+    biblio: 4
+    floor: 2
+    isAvailable: 1
+  - title: The Saturnalia.
+    author: Macrobius, Ambrosius Aurelius Theodosius.
+    callNumber: 878 M24
+    biblio: 5
+    floor: 3
+    isAvailable: 1
+  - title: Christian letters to a post-Christian world;
+    author: Sayers, Dorothy L.
+    callNumber: 230 Sa99
+    biblio: 6
+    floor: 2
+    isAvailable: 1
+  - title: Pictorial anatomy of the cat.
+    author: Gilbert, Stephen G.
+    callNumber: 599.7 G37
+    biblio: 7
+    floor: 2
+    isAvailable: 1
+  - title: Black in white America /
+    author: Freed, Leonard.
+    callNumber: 917.303 F7b
+    biblio: 8
+    floor: 3
+    isAvailable: 1
+  - title: The tragedy of Lyndon Johnson,
+    author: Goldman, Eric Frederick,
+    callNumber: 973.923 J63
+    biblio: 9
+    floor: 3
+    isAvailable: 1
+  - title: "Mateo Alem\xE1n."
+    author: McGrady, Donald.
+    callNumber: 863 AL26zm
+    biblio: 10
+    floor: 3
+    isAvailable: 1
+  - title: The making of black America;
+    author: Meier, August,
+    callNumber: 301.451 M47m
+    biblio: 11
+    floor: 2
+    isAvailable: 1
+  - title: 'Christian iconography :'
+    author: "Grabar, Andr\xE9,"
+    callNumber: 704.948 G75
+    biblio: 12
+    floor: 3
+    isAvailable: 1
+  - title: Socialism in Cuba,
+    author: Huberman, Leo,
+    callNumber: 972.91 H86s
+    biblio: 14
+    floor: 3
+    isAvailable: 1
