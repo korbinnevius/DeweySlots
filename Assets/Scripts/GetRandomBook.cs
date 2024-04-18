@@ -18,5 +18,12 @@ namespace DefaultNamespace
             authorText.text = book.author;
             //text.asd = book.asdf
         }
+        private void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                UpdateText();
+            }
+        }
     }
 }
