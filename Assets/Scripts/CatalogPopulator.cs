@@ -12,6 +12,7 @@ public partial class CatalogPopulator : MonoBehaviour
     public int maxBiblio = 100000;
     public Catalog catalog;
     public TextMeshProUGUI text;
+    
 
     public string biblioFrontURL = "https://libstaff.chatham.edu/api/v1/public/biblios/";
     //Generating code to go to and from strings 
@@ -21,11 +22,10 @@ public partial class CatalogPopulator : MonoBehaviour
         public Item[] items;
     }
 
-
+    
     void Start()
     {
     }
-
     [ContextMenu("Get ALL the Books")]
     void GetAllBooks()
     {
@@ -92,21 +92,51 @@ public partial class CatalogPopulator : MonoBehaviour
         {
             if (dataField[subFieldID] != null)
             {
-                string data = dataField[subFieldID].Data;
-                //checking to see if theres b or c values and adding them if theyre real
-                // if (string.IsNullOrEmpty(dataField['b'].Data!=) )
-                // {
-                //     
-                // }
-                // else
-                // {
-                //     
-                // }
-                // string data2 = dataField['b'].Data;
-                // string data3 = dataField['c'].Data;
-                //not getting parts just values
-                Debug.Log($"This is how many parts there are in this book {dataField[subFieldID].Data}");
-                return data;
+                if (fieldID == "245")
+                {
+                    string data = dataField[subFieldID].Data;
+                    //checking to see if theres b or c values and adding them if theyre real
+                    if (dataField['b']!= null && !string.IsNullOrEmpty(dataField['b'].Data) )
+                    {
+                        
+                        string data2 = dataField['b'].Data;
+
+                        string finalData = data + data2;
+                        return finalData;
+                    }
+                    else
+                    {
+                        return data;
+                    }
+                    // else
+                    // {
+                    //     
+                    // }
+                    // string data2 = dataField['b'].Data;
+                    // string data3 = dataField['c'].Data;
+                    //not getting parts just values
+                    Debug.Log($"This is how many parts there are in this book {dataField[subFieldID].Data}");
+                    //return data;
+                }
+                else
+                {
+                    string data = dataField[subFieldID].Data;
+                    //checking to see if theres b or c values and adding them if theyre real
+                    // if (string.IsNullOrEmpty(dataField['b'].Data!=) )
+                    // {
+                    //     
+                    // }
+                    // else
+                    // {
+                    //     
+                    // }
+                    // string data2 = dataField['b'].Data;
+                    // string data3 = dataField['c'].Data;
+                    //not getting parts just values
+                    Debug.Log($"This is how many parts there are in this book {dataField[subFieldID].Data}");
+                    return data;  
+                }
+                
             }
         }
 

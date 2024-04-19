@@ -19,7 +19,6 @@ namespace DefaultNamespace
         // {
         //     Items.Add(item);
         // }
-
         public void AddBook(Book book)
         {
             if (Books.All(b => b.biblio != book.biblio))
@@ -66,6 +65,7 @@ namespace DefaultNamespace
             {
                 RefreshAvailable();
             }
+            
             return availableBooks[UnityEngine.Random.Range(0, availableBooks.Count)];
         }
     }
