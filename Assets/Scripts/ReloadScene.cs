@@ -8,10 +8,10 @@ public class ReloadScene : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ReloadGame();
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     ReloadGame();
+        // }
     }
 
     // Update is called once per frame

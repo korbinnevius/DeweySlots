@@ -18,12 +18,10 @@ namespace DefaultNamespace
             authorText.text = book.author;
             //text.asd = book.asdf
         }
-        private void Update()
+
+        public void DoGetRandomBook()
         {
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                UpdateText();
-            }
+            UpdateText();
         }
     }
 }

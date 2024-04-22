@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,8 +14,18 @@ public class LightTimer : MonoBehaviour
     {
         LightGroup1.SetActive(false);
         LightGroup2.SetActive(true);
-        Invoke("EnableLights", DelayTimer);
-        Invoke("DisableLights", DelayTimer);
+        
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            LightGroup1.SetActive(false);
+            LightGroup2.SetActive(true);
+            Invoke("EnableLights", DelayTimer);
+            Invoke("DisableLights", DelayTimer);
+        }
     }
 
     void EnableLights()

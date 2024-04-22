@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,8 +14,18 @@ public class LightGroupChanger : MonoBehaviour
     {
         AfterResults.SetActive(false);
         BeforeResults.SetActive(true);
-        Invoke("EnableLightGroup", DelayTimer);
-        Invoke("DisableLightGroup", DelayTimer);
+        
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            AfterResults.SetActive(false);
+            BeforeResults.SetActive(true);
+            Invoke("EnableLightGroup", DelayTimer);
+            Invoke("DisableLightGroup", DelayTimer);
+        }
     }
 
     void EnableLightGroup()
