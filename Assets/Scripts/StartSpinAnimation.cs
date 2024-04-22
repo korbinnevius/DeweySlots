@@ -48,6 +48,7 @@ public class StartSpinAnimation : MonoBehaviour
         LightGroupChanger.EnableLightGroup();
         LightGroupChanger.DisableLightGroup();
         TurnOnWhiteCanvas.TurnOnWhiteCanvas();
+        // TextboxEnable.TextBox.SetActive(true);
 
     }
 }

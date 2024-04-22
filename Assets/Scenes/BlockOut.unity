@@ -11981,9 +11981,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3655186136213888696, guid: d0dd2a8e1200ca84483b044d7d12e66d,
         type: 3}
+      propertyPath: LightTimer
+      value: 
+      objectReference: {fileID: 332697201}
+    - target: {fileID: 3655186136213888696, guid: d0dd2a8e1200ca84483b044d7d12e66d,
+        type: 3}
       propertyPath: GetRandomBook
       value: 
       objectReference: {fileID: 617004966}
+    - target: {fileID: 3655186136213888696, guid: d0dd2a8e1200ca84483b044d7d12e66d,
+        type: 3}
+      propertyPath: TextboxEnable
+      value: 
+      objectReference: {fileID: 543336623}
+    - target: {fileID: 3655186136213888696, guid: d0dd2a8e1200ca84483b044d7d12e66d,
+        type: 3}
+      propertyPath: LightGroupChanger
+      value: 
+      objectReference: {fileID: 543336625}
+    - target: {fileID: 3655186136213888696, guid: d0dd2a8e1200ca84483b044d7d12e66d,
+        type: 3}
+      propertyPath: TurnOnWhiteCanvas
+      value: 
+      objectReference: {fileID: 1431761774}
     - target: {fileID: 6316269200824294956, guid: d0dd2a8e1200ca84483b044d7d12e66d,
         type: 3}
       propertyPath: m_Name
