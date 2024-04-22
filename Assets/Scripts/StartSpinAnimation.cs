@@ -9,6 +9,11 @@ public class StartSpinAnimation : MonoBehaviour
     [SerializeField] private bool spinning;
 
     public GetRandomBook GetRandomBook;
+    public TextboxEnable TextboxEnable;
+    public LightTimer LightTimer;
+    public LightGroupChanger LightGroupChanger;
+    public turnOnWhiteCanvas TurnOnWhiteCanvas;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,5 +40,14 @@ public class StartSpinAnimation : MonoBehaviour
     {
         spinning = false;
         GetRandomBook.DoGetRandomBook();
+        TextboxEnable.EnableTextBox();
+        LightTimer.EnableLights();
+        LightTimer.EnableLightsAgain();
+        LightTimer.DisableLights();
+        LightTimer.DisableLightAgain();
+        LightGroupChanger.EnableLightGroup();
+        LightGroupChanger.DisableLightGroup();
+        TurnOnWhiteCanvas.TurnOnWhiteCanvas();
+
     }
 }

@@ -17,34 +17,34 @@ public class LightTimer : MonoBehaviour
         
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            LightGroup1.SetActive(false);
-            LightGroup2.SetActive(true);
-            Invoke("EnableLights", DelayTimer);
-            Invoke("DisableLights", DelayTimer);
-        }
-    }
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         LightGroup1.SetActive(false);
+    //         LightGroup2.SetActive(true);
+    //         Invoke("EnableLights", DelayTimer);
+    //         Invoke("DisableLights", DelayTimer);
+    //     }
+    // }
 
-    void EnableLights()
+    public void EnableLights()
     {
         LightGroup1.SetActive(true);
         Invoke("EnableLightsAgain", DelayTimer);
     } 
-    void DisableLights()
+    public void DisableLights()
     {
         LightGroup2.SetActive(false);
         Invoke("DisableLightAgain", DelayTimer);
     }
 
-    void EnableLightsAgain()
+    public void EnableLightsAgain()
     {
         LightGroup1.SetActive(false);
         Invoke("EnableLights", DelayTimer);
     }
-    void DisableLightAgain()
+    public void DisableLightAgain()
     {
         LightGroup2.SetActive(true);
         Invoke("DisableLights", DelayTimer);

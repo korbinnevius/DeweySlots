@@ -17,22 +17,22 @@ public class LightGroupChanger : MonoBehaviour
         
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            AfterResults.SetActive(false);
-            BeforeResults.SetActive(true);
-            Invoke("EnableLightGroup", DelayTimer);
-            Invoke("DisableLightGroup", DelayTimer);
-        }
-    }
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         AfterResults.SetActive(false);
+    //         BeforeResults.SetActive(true);
+    //         Invoke("EnableLightGroup", DelayTimer);
+    //         Invoke("DisableLightGroup", DelayTimer);
+    //     }
+    // }
 
-    void EnableLightGroup()
+    public void EnableLightGroup()
     {
         AfterResults.SetActive(true);
     } 
-    void DisableLightGroup()
+    public void DisableLightGroup()
     {
         BeforeResults.SetActive(false);
     }

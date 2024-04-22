@@ -15,16 +15,16 @@ public class TextboxEnable : MonoBehaviour
         TextBox.SetActive(false);
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TextBox.SetActive(false);
-            Invoke("EnableTextBox", DelayTimer); 
-        } 
-    }
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         TextBox.SetActive(false);
+    //         Invoke("EnableTextBox", DelayTimer); 
+    //     } 
+    // }
 
-    void EnableTextBox()
+    public void EnableTextBox()
     {
         TextBox.SetActive(true);
     }

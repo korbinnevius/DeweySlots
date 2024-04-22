@@ -6,10 +6,6 @@ public class turnOnWhiteCanvas : MonoBehaviour
 {
     [SerializeField] private GameObject whiteCanvas;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -17,7 +13,7 @@ public class turnOnWhiteCanvas : MonoBehaviour
         TurnOnWhiteCanvas();   
     }
 
-    void TurnOnWhiteCanvas()
+    public void TurnOnWhiteCanvas()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
