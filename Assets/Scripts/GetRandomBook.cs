@@ -19,6 +19,13 @@ namespace DefaultNamespace
             //text.asd = book.asdf
         }
 
+        public void ClearSlotsText()
+        {
+            callNumText.text = " ";
+            titleText.text = " ";
+            authorText.text = " ";
+        }
+
         public void DoGetRandomBook()
         {
             UpdateText();

@@ -29,8 +29,14 @@ public class StartSpinAnimation : MonoBehaviour
 
     void StartSpinning()
     {
+        // %% !spinning is checking to see i f
         if (Input.GetKeyDown(KeyCode.Space) && !spinning )
         {
+            //Clear Text before starting animation
+            
+            //disable box
+            //On Button Press starting Spinning animation 
+            TextboxEnable.EnableTextBox(false);
             animator.SetTrigger("Spinning");
             spinning = true;
         }
@@ -38,9 +44,12 @@ public class StartSpinAnimation : MonoBehaviour
 
     public void SpinningStopped()
     {
+       
+        //When the Spinning has stopped
         spinning = false;
+        GetRandomBook.ClearSlotsText();
         GetRandomBook.DoGetRandomBook();
-        TextboxEnable.EnableTextBox();
+        TextboxEnable.EnableTextBox(true);
         LightTimer.EnableLights();
         LightTimer.EnableLightsAgain();
         LightTimer.DisableLights();
@@ -48,7 +57,16 @@ public class StartSpinAnimation : MonoBehaviour
         LightGroupChanger.EnableLightGroup();
         LightGroupChanger.DisableLightGroup();
         TurnOnWhiteCanvas.TurnOnWhiteCanvas();
+        Debug.Log("The Spinning is complete");
+        //Handle Restart Scene Here
+        //Circle Pie Timer or a Bar changing in scale that when ends Restarts Scene
         // TextboxEnable.TextBox.SetActive(true);
 
     }
+
+    // IEnumerator PressForNewBook(int delay)
+    // {
+    //     
+    // }
+    
 }

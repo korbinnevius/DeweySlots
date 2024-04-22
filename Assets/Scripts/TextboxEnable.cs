@@ -24,8 +24,8 @@ public class TextboxEnable : MonoBehaviour
     //     } 
     // }
 
-    public void EnableTextBox()
+    public void EnableTextBox(bool TextCond)
     {
-        TextBox.SetActive(true);
+        TextBox.SetActive(TextCond);
     }
 }
