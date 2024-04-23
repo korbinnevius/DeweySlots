@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18386701, g: 0.22902685, b: 0.30319223, a: 1}
+  m_IndirectSpecularColor: {r: 0.18386644, g: 0.22902626, b: 0.303191, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1191,7 +1191,7 @@ PrefabInstance:
     - target: {fileID: 4681205068827470907, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
         type: 3}
       propertyPath: waitBetweenBookGrab
-      value: 0.25
+      value: 0.0005
       objectReference: {fileID: 0}
     - target: {fileID: 7763998232994636793, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
         type: 3}
@@ -1216,7 +1216,7 @@ PrefabInstance:
     - target: {fileID: 8166998356710079675, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
         type: 3}
       propertyPath: waitBetweenAvailableBooks
-      value: 0.25
+      value: 0.005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
