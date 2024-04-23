@@ -10,7 +10,9 @@ namespace DefaultNamespace
     {
         public string websiteURL = "https://libstaff.chatham.edu/api/v1/public/biblios/";
         public Catalog catalog;
+        public float waitBetweenAvailableBooks;
         [FormerlySerializedAs("active")] public bool updateOnStart = true;
+        [ContextMenu("Update Catalog")]
         void Start()
         {
             if (updateOnStart)
@@ -36,7 +38,7 @@ namespace DefaultNamespace
 
                 yield return StartCoroutine(UpdateABook(catalog.GetBook(n)));
                 catalog.lastUpdatedIndex = n;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(waitBetweenAvailableBooks);
             }
         }
 

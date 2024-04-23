@@ -11,6 +11,7 @@ public partial class CatalogPopulator : MonoBehaviour
 {
     public int maxBiblio = 100000;
     public Catalog catalog;
+    public float waitBetweenBookGrab;
     
 
     public string biblioFrontURL = "https://libstaff.chatham.edu/api/v1/public/biblios/";
@@ -42,7 +43,7 @@ public partial class CatalogPopulator : MonoBehaviour
             delay++;
             if (delay > 50)
             {
-                yield return new WaitForSeconds(0.25f);
+                yield return new WaitForSeconds(waitBetweenBookGrab);
                 delay = 0;
             }
 
@@ -100,7 +101,7 @@ public partial class CatalogPopulator : MonoBehaviour
                         
                         string data2 = dataField['b'].Data;
 
-                        string finalData = data + data2;
+                        string finalData = data + " " + data2;
                         return finalData;
                     }
                     else
@@ -132,7 +133,6 @@ public partial class CatalogPopulator : MonoBehaviour
                     // string data2 = dataField['b'].Data;
                     // string data3 = dataField['c'].Data;
                     //not getting parts just values
-                    Debug.Log($"This is how many parts there are in this book {dataField[subFieldID].Data}");
                     return data;  
                 }
                 

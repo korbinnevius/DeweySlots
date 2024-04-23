@@ -1188,6 +1188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 4681205068827470907, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
+        type: 3}
+      propertyPath: waitBetweenBookGrab
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7763998232994636793, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
         type: 3}
       propertyPath: resetTime
@@ -1208,6 +1213,11 @@ PrefabInstance:
       propertyPath: callNumText
       value: 
       objectReference: {fileID: 1228092522}
+    - target: {fileID: 8166998356710079675, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
+        type: 3}
+      propertyPath: waitBetweenAvailableBooks
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2670,8 +2680,8 @@ MonoBehaviour:
   m_fontSizeBase: 20.02
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 12.8
+  m_fontSizeMax: 59.93
   m_fontStyle: 2
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -2769,7 +2779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.018, y: 1.794}
+  m_AnchoredPosition: {x: 0.018, y: 1.723}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &801079317
@@ -8676,10 +8686,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.72
+  m_fontSize: 34.4
   m_fontSizeBase: 37.72
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
