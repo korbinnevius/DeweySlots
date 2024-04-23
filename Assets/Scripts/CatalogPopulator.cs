@@ -11,7 +11,6 @@ public partial class CatalogPopulator : MonoBehaviour
 {
     public int maxBiblio = 100000;
     public Catalog catalog;
-    public TextMeshProUGUI text;
     
 
     public string biblioFrontURL = "https://libstaff.chatham.edu/api/v1/public/biblios/";

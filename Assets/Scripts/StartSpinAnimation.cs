@@ -57,7 +57,6 @@ public class StartSpinAnimation : MonoBehaviour
         LightGroupChanger.EnableLightGroup();
         LightGroupChanger.DisableLightGroup();
         TurnOnWhiteCanvas.TurnOnWhiteCanvas();
-        Debug.Log("The Spinning is complete");
         //Handle Restart Scene Here
         //Circle Pie Timer or a Bar changing in scale that when ends Restarts Scene
         // TextboxEnable.TextBox.SetActive(true);

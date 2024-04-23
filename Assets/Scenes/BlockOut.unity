@@ -1190,6 +1190,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7763998232994636793, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
         type: 3}
+      propertyPath: resetTime
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763998232994636793, guid: c88b9beb8cc1542138fdbc9b74a3ef2d,
+        type: 3}
       propertyPath: titleText
       value: 
       objectReference: {fileID: 796218289}
@@ -2661,10 +2666,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.02
+  m_fontSize: 22.15
   m_fontSizeBase: 20.02
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 2
